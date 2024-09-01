@@ -1,0 +1,57 @@
+.pinItem{
+  img:first-child {
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #dadada;
+  }
+  :hover img:first-child{
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #dadada;
+      transform: scale(1.02);
+    -ms-transform:scale(1.02);     /* IE 9 */
+    -moz-transform:scale(1.02);     /* Firefox */
+    -webkit-transform:scale(1.02); /* Safari 和 Chrome */
+    -o-transform:scale(1.02);
+  }
+
+  
+  }
+  .pinImage{
+    border-radius: 8px;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+    >div{
+      border-radius: 8px;
+      //margin: -1px;
+    }
+  }
+  .pinItem{
+    clear:'both';
+    overflow:'hidden';
+    width:'100%';
+  }
+  .web_profile{
+    display: flex;
+    flex: 1;
+  }
+  .mobile_profile{
+    width: 100%;
+    & a{
+      padding: 5px
+    }
+  }
+  .mobile_description{
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    line-height: 18px;
+  }
+  @media(max-width:768px){
+    .mobile_card_profile{
+      position: fixed;
+      bottom: 50px;
+      width: 100%;
+      color: #fff;
+      z-index: 100001;
+    }
+  }

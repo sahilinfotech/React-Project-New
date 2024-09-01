@@ -1,0 +1,26 @@
+.mobile_header{
+    .top_header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 671; 
+    }
+    .bottom_header{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 671;
+    }
+    // svg[aria-label=Person]{
+    //     float: right;
+    // }
+    svg[aria-label=Collect],svg[aria-label=Search]{
+        margin: 0 auto
+    }
+    svg[role=img]{
+        margin: 0 auto;
+    }
+    a.selected svg{
+        color: #D32024;
+    }
+}

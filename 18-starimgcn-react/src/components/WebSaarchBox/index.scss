@@ -1,0 +1,30 @@
+.searchBox{
+    position: relative;
+    margin-top: 0;
+}
+.star_list{
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    top: 42px;
+    background: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 0.9;
+    box-shadow: 2px 2px 3px #888888;
+    img{
+        max-width: 30px;
+    }
+    li:hover >div{
+        background: #f1f1f1
+    }
+}
+@media screen and (max-width:768px){
+    .searchBox{
+        margin-top: 50px;
+        padding: 0 8px;
+    }
+}

@@ -1,0 +1,10 @@
+.pinsContainer{
+    max-width: 100%;
+    overflow-x: hidden
+}
+@media(max-width:768px){
+   .pinsContainer{
+       padding-top: 50px;
+       padding-bottom: 50px;
+   } 
+}
